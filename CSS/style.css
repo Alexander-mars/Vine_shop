@@ -1,0 +1,169 @@
+.test {
+	border: 3px solid red;
+
+}
+
+
+/*=================================Общие стили===============================*/
+.body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+
+
+
+
+	--text-color: white;
+
+}
+
+.container {
+	margin: auto;
+	padding: auto;
+	max-width: 1280px;
+}
+
+
+
+/*=================================Header===============================*/
+.header {
+	background: url(../img/bgc.png) no-repeat;
+	color: var(--text-color);
+	font-family: Montserrat;
+	padding: 20px;
+		color: var(--text-color);
+
+
+}
+
+.contact-information {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-information__adress {
+}
+
+.contact-information__number {
+}
+
+.navigation {
+
+}
+
+.menu {
+	display: flex;
+	justify-content: space-around;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+
+
+}
+
+.menu__item {
+	color: var(--text-color);
+	text-decoration: none;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	width: 100%;
+	text-align: center;			
+}
+
+.menu__item:hover {
+	background: #722F37;
+	transition: 0.5s;
+}
+
+
+
+.border {
+	border-left: 1px solid white;
+}
+
+.button-block {
+	margin-top: 600px;
+	text-align: center;
+	margin-bottom: 140px;
+}
+
+.button-block__item {
+	color: var(--text-color);
+
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 15px 30px;
+	margin: 30px;
+	background-color: #99862A;
+
+}
+
+.button-block__item:hover {
+	background: #bda42a;
+	transition: 0.5s;
+}
+
+
+
+
+@media(max-width: 520px){
+	.button-block {
+		margin-top: 570px;
+		margin-bottom: 50px;
+		display: flex;
+		flex-direction: column;
+
+
+	}
+	
+	.button-block__item {
+		margin: 10px 0px;
+	}
+	.contact-information__number {
+		margin-left: 15px;
+	}
+
+}
+
+
+
+
+
+
+/*=================================Text===============================*/
+.text {
+	background-color: #282828;
+		color: var(--text-color);
+}
+
+.text__border{
+	border: 3px solid #C4C4C4;
+	max-width: 1110px;
+	text-align: center;
+	padding: 15px;
+	margin: 100px auto;
+}
+
+.text__title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 54px;
+	margin-top: 60px;
+
+}
+
+.text__line {
+	content: "";
+
+}
+
+.text__description {
+	max-width: 733px;
+	margin: 40px auto;
+	margin-bottom: ;
+
+}
+
+.text__wine-glasses {
+	margin: 60px auto;
+}
